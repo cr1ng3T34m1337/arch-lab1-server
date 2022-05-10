@@ -1,6 +1,6 @@
-package json 
+package main 
 
-func Stringify(str string) ([]byte, error){
+func stringify(str string) ([]byte, error){
     response := map[string]string{
         "time": str,
     }
